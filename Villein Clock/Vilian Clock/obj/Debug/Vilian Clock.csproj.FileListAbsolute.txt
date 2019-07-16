@@ -1,0 +1,15 @@
+G:\Projects\Vilian Clock\Vilian Clock\bin\Debug\Vilian Clock.exe.config
+G:\Projects\Vilian Clock\Vilian Clock\bin\Debug\Vilian Clock.exe
+G:\Projects\Vilian Clock\Vilian Clock\bin\Debug\Vilian Clock.pdb
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock.csprojAssemblyReference.cache
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\MainWindow.g.cs
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\App.g.cs
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock_MarkupCompile.cache
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock_MarkupCompile.lref
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\MainWindow.baml
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock.g.resources
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian_Clock.Properties.Resources.resources
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock.csproj.GenerateResource.cache
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock.csproj.CoreCompileInputs.cache
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock.exe
+G:\Projects\Vilian Clock\Vilian Clock\obj\Debug\Vilian Clock.pdb

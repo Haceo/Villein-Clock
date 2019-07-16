@@ -1,0 +1,14 @@
+﻿<Window x:Class="Vilian_Clock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vilian_Clock"
+        mc:Ignorable="d"
+        Title="Villian Clock" Background="{x:Null}" Foreground="{x:Null}" Width="200" Height="210" WindowStyle="None" AllowsTransparency="True" BorderThickness="0" ResizeMode="NoResize" Icon="KiteDH2.ico">
+    <Grid Width="170" Height="170">
+        <Polygon Stroke="Blue" StrokeThickness="5" Points="10,85 85,10 160,85 85,160" MouseDown="Drag"/>
+        <Grid Name="secondFace" Width="170" Height="170"/>
+        <Grid Name="minuteFace" Width="170" Height="170"/>
+    </Grid>
+</Window>

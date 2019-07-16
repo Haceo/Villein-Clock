@@ -1,0 +1,15 @@
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\MainWindow.g.cs
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\App.g.cs
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\MainWindow.baml
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Vilian Clock.csproj.GenerateResource.cache
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Vilian Clock.csproj.CoreCompileInputs.cache
+G:\Projects\Vilian Clock\Vilian Clock\bin\Release\Villein Clock.exe.config
+G:\Projects\Vilian Clock\Vilian Clock\bin\Release\Villein Clock.exe
+G:\Projects\Vilian Clock\Vilian Clock\bin\Release\Villein Clock.pdb
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Vilian Clock.csprojAssemblyReference.cache
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Villein Clock_MarkupCompile.cache
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Villein Clock_MarkupCompile.lref
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Villein Clock.g.resources
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Villein_Clock.Properties.Resources.resources
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Villein Clock.exe
+G:\Projects\Vilian Clock\Vilian Clock\obj\Release\Villein Clock.pdb
