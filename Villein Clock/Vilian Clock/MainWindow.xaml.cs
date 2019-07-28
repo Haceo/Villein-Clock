@@ -4,7 +4,7 @@ using System.Windows.Threading;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shapes;
-using static Vilian_Clock.PointMatrix.PointsEnum;
+using System.Linq;
 
 namespace Vilian_Clock
 {
@@ -84,90 +84,27 @@ namespace Vilian_Clock
             if (minutes != 0)
             {
                 int sub = minutes;
-                if (sub >= 768)
+                foreach (var item in matrix.Points.Reverse())
                 {
-                    sub = sub - 768;
-                    Draw(matrix.Points[(int)SevenSixtyEight]);
-                    Draw(matrix.Points[(int)TwoFiftySix]);
-                }
-                if (sub >= 512)
-                {
-                    sub = sub - 512;
-                    Draw(matrix.Points[(int)FiveTwelve]);
-                }
-                if (sub >= 256)
-                {
-                    sub = sub - 256;
-                    Draw(matrix.Points[(int)TwoFiftySix]);
-                }
-                if (sub >= 192)
-                {
-                    sub = sub - 192;
-                    Draw(matrix.Points[(int)OneNintyTwo]);
-                    Draw(matrix.Points[(int)SixtyFour]);
-                }
-                if (sub >= 128)
-                {
-                    sub = sub - 128;
-                    Draw(matrix.Points[(int)OneTwentyEight]);
-                }
-                if (sub >= 64)
-                {
-                    sub = sub - 64;
-                    Draw(matrix.Points[(int)SixtyFour]);
-                }
-                if (sub >= 48)
-                {
-                    sub = sub - 48;
-                    Draw(matrix.Points[(int)FortyEight]);
-                    Draw(matrix.Points[(int)SixTeen]);
-                }
-                if (sub >= 32)
-                {
-                    sub = sub - 32;
-                    Draw(matrix.Points[(int)ThirtyTwo]);
-                }
-                if (sub >= 16)
-                {
-                    sub = sub - 16;
-                    Draw(matrix.Points[(int)SixTeen]);
-                }
-                if (sub >= 12)
-                {
-                    sub = sub - 12;
-                    Draw(matrix.Points[(int)Twelve]);
-                    Draw(matrix.Points[(int)Four]);
-                }
-                if (sub >= 8)
-                {
-                    sub = sub - 8;
-                    Draw(matrix.Points[(int)Eight]);
-                }
-                if (sub >= 4)
-                {
-                    sub = sub - 4;
-                    Draw(matrix.Points[(int)Four]);
-                }
-                if (sub >= 3)
-                {
-                    sub = sub - 3;
-                    Draw(matrix.Points[(int)Three]);
-                    Draw(matrix.Points[(int)One]);
-                }
-                if (sub >= 2)
-                {
-                    sub = sub - 2;
-                    Draw(matrix.Points[(int)Two]);
-                }
-                if (sub >= 1)
-                {
-                    sub = sub - 1;
-                    Draw(matrix.Points[(int)One]);
+                    if (sub >= item.Key)
+                    {
+                        sub = sub - item.Key;
+                        (string p1, string p2) = item.Value;
+
+                        Draw(p1);
+                        if (!string.IsNullOrEmpty(p2))
+                        {
+                            Draw(p2);
+                        }
+                    }
                 }
             }
             else
+            {
                 return;
+            }
         }
+
         //display
         void Draw(string Points)
         {
